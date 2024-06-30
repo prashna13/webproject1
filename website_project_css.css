@@ -21,21 +21,25 @@ body {
     color: white;
     text-decoration: none;
     font-size: 1.7rem;
+    background-color: rosybrown;
 }
 
 .navbar-links {
     list-style: none;
     display: flex;
+      background-color: rosybrown;
 }
 
 .navbar-links li {
     margin-left: 1rem;
+
 }
 
 .navbar-links a {
     color: white;
     text-decoration: none;
     font-size: 1rem;
+    background-color: rosybrown;
 }
 
 .navbar-links a:hover {
@@ -85,3 +89,15 @@ h1 {
 .hire-me:hover {
     background-color: gray;
 }
+
+.Contact Me {
+    width: 100%; 
+  padding: 14px;  
+  border: 1px solid gray;
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 5px; 
+  margin-bottom: 15px;
+  resize: vertical
+}
+
