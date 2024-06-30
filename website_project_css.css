@@ -90,7 +90,6 @@ h1 {
     background-color: gray;
 }
 
-<<<<<<< HEAD
 .Contact Me
 
 body {
@@ -158,16 +157,3 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: brown;
 }
-=======
-.Contact Me {
-    width: 100%; 
-  padding: 14px;  
-  border: 1px solid gray;
-  border-radius: 4px; 
-  box-sizing: border-box; 
-  margin-top: 5px; 
-  margin-bottom: 15px;
-  resize: vertical
-}
-
->>>>>>> 37780a61ee1a4a97efcf369f46fff64869f12d68
