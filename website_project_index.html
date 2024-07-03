@@ -1,33 +1,46 @@
 <!DOCTYPE html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Emma's Portfolio</title>
     <link rel="stylesheet" href="website_project_css.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="navbar-brand">
-            <a href="#">Emma</a>
+    <nav>
+        <div class="nav-left">
+            <span class="site-name">Emma</span>
         </div>
-        <ul class="navbar-links">
-            <li><a href="website_Projects.html">Projects</a></li>
-            <li><a href="website_contact.html">Contact Me</a></li>
-            <li><a href=>Video Demo</a></li>
-            <li><a href=>Site Report</a></li>
-        </ul>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <div class="nav-right" id="nav-links">
+            <a href="website_projects.html">Projects</a>
+            <a href="website_contact.html">Contact Me</a>
+            <a href="">Video Demo</a>
+            <a href="website_sitereport.html">Site Report</a>
+        </div>
     </nav>
-
     <header class="intro">
-        <h1> Hi</h1>
-        <h3>I am Emma,a frontend developer</h3>
-         <img src="image.jpg" alt="Emma's photo">
-        <p>I am a passionate front-end developer with a solid foundation in HTML, CSS, and JavaScript.
-         I bring designs to life, making sure they look good on any device. I thrive on solving problems and continuously learning new technologies to stay ahead in the fast-evolving world of web development.
-         Let's work together and make the web a more beautiful and accessible place.</p>
-          <button class="hire-me">Hire Me</button>
-          <button class="My-cv">Download my CV</button>
+        <div class="intro-text">
+            <h1>Hi, I am Emma, a Frontend Developer</h1>
+            <p>Passionate about creating interactive and modern web applications that deliver a seamless user experience. Skilled in HTML, CSS, JavaScript, and various frontend frameworks.</p>
+            <div class="intro-buttons">
+                <a href="" class="button">Hire Me</a>
+                <a href="" class="button button-outline">Download My CV</a>
+            </div>
+        </div>
+        <div class="intro-photo">
+            <img src="your-photo.jpg" alt="Emma" />
+        </div>
     </header>
-
-  
+    <div class="content">
+        <section class="about-frontend">
+            <h2>About Frontend Development</h2>
+            <p>Frontend development involves creating the visual and interactive elements of a website that users interact with directly. It includes the implementation of web designs through coding languages like HTML, CSS, and JavaScript, and often involves working with frameworks and libraries such as React, Angular, or Vue.js to build dynamic web applications. The goal is to create a seamless and engaging user experience while ensuring the site's performance, accessibility, and responsiveness across different devices and browsers.</p>
+        </section>
+    </div>
 </body>
 </html>
