@@ -1,46 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<h1>Contact form</h1>
-	<link rel="stylesheet" href="website_project_css.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="website_contact_style.css">
 </head>
 <body>
-<form>
-<table>
-<tr>
-	<td>First name:
-		<input type="text" placeholder="Enter your first name" name="fname">
-	</td>
-</tr>
-    <td>Last name:
-    	<input type="text" placeholder="Enter your last name" 
-    	name="lname">
-
-	</td>
-</tr>
-<tr>
-	<td>Country:
-		<select id ="Country" name="Country">
-			<option value="Nepal">Nepal</option>
-			<option value="USA">USA</option>
-			<option value="Australia">Australia</option>
-		</select>
-	</td>
-</tr>
-<tr>
-	<td>Email:
-		<input type="Email" placeholder="Enter your Email Adress" name="Email">
-	</td>
-	<td>
-</tr>
-<tr>
-	<td>Message:
-		<input type="Message" name="Message" 
-		placeholder="Write your message">
-</td>
-</tr>
-</table>
-<input type="Submit" name="Submit">
-</form>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <form>
+            <div class="form-group">
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname" placeholder="Enter your first name">
+            </div>
+            <div class="form-group">
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname" placeholder="Enter your last name">
+            </div>
+            <div class="form-group">
+                <label for="country">Country:</label>
+                <select id="country" name="country">
+                    <option value="Nepal">Nepal</option>
+                    <option value="USA">USA</option>
+                    <option value="Australia">Australia</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address">
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Write your message"></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
 </body>
 </html>
