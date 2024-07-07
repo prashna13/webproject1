@@ -1,13 +1,11 @@
-
-* {
-    margin: 0;
+* {margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
     margin: 0;
-    font-family: 'Poppins', sans-serif; 
+    font-family: 'Poppins', sans-serif;
     background-color: #f4f4f9;
 }
 
@@ -16,7 +14,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: #007bff; 
+    background-color: #007bff;
     color: #fff;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: relative;
@@ -26,16 +24,14 @@ nav {
     font-size: 1.5rem;
     font-weight: 700;
     color: #fff;
-    font-family: 'Poppins', sans-serif; 
 }
 
 .nav-right a {
-    color: #fff; 
+    color: #fff;
     text-decoration: none;
     margin-left: 2rem;
     font-weight: 500;
     transition: color 0.3s;
-    font-family: 'Poppins', sans-serif; 
 }
 
 .nav-right a:hover {
@@ -78,14 +74,12 @@ header.intro {
     font-size: 2.5rem;
     margin: 0;
     color: #333;
-    font-family: 'Poppins', sans-serif;
 }
 
 .intro-text p {
     font-size: 1.2rem;
     color: #666;
     line-height: 1.6;
-    font-family: 'Poppins', sans-serif; 
 }
 
 .intro-buttons {
@@ -99,27 +93,26 @@ header.intro {
     font-size: 1rem;
     font-weight: 500;
     color: #fff;
-    background-color: #007bff; 
+    background-color: #007bff;
     border: none;
     border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.3s;
-    font-family: 'Poppins', sans-serif; 
 }
 
 .button:hover {
-    background-color: #0056b3; 
+    background-color: #0056b3;
 }
 
 .button-outline {
     background-color: #fff;
-    color: #007bff; 
-    border: 2px solid #007bff; 
+    color: #007bff;
+    border: 2px solid #007bff;
 }
 
 .button-outline:hover {
-    background-color: #007bff; 
-    color: #fff; 
+    background-color: #007bff;
+    color: #fff;
 }
 
 .intro-photo {
@@ -128,11 +121,11 @@ header.intro {
 }
 
 .intro-photo img {
-    width: 600px; 
-    height: 400px; 
-    max-width: 100%; 
-    height: auto; 
-    border-radius: 20px; 
+    width: 600px;
+    height: 400px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -141,30 +134,27 @@ header.intro {
 }
 
 .about-frontend {
-    padding: 2rem 0; 
+    padding: 2rem 0;
 }
 
 .about-frontend h2 {
     font-size: 2rem;
-    color: #333; 
+    color: #333;
     margin-bottom: 1rem;
-    font-family: 'Poppins', sans-serif; 
 }
 
 .about-frontend p {
     font-size: 1.2rem;
-    color: #666; 
+    color: #666;
     line-height: 1.6;
-    font-family: 'Poppins', sans-serif; 
 }
-
 
 @media (max-width: 768px) {
     .nav-right {
         display: none;
         flex-direction: column;
         width: 100%;
-        background-color: #007bff; 
+        background-color: #007bff;
         position: absolute;
         top: 60px;
         left: 0;
@@ -176,7 +166,6 @@ header.intro {
         padding: 1rem;
         width: 100%;
         box-sizing: border-box;
-        font-family: 'Poppins', sans-serif;
     }
 
     .nav-toggle-label {
@@ -187,3 +176,102 @@ header.intro {
         display: flex;
     }
 }
+
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    text-align: center;
+    color: #666;
+    margin: 20px 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #1c86ee;
+}
+
